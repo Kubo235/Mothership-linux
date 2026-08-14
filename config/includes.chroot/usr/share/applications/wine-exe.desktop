@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Wine Windows Program Loader
+Comment=Run Windows programs with Wine
+Exec=wine "%f"
+Type=Application
+NoDisplay=true
+MimeType=application/x-ms-dos-executable;application/x-msdownload;
+Icon=wine
