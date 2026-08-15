@@ -1,0 +1,9 @@
+#!/bin/sh -e
+# Vynútenie aktivácie binfmt pre Wine pri každom boote Live ISO
+
+if [ -x /usr/sbin/update-binfmts ]; then
+    /usr/sbin/update-binfmts --import wine || true
+    /usr/sbin/update-binfmts --enable wine || true
+fi
+
+exit 0

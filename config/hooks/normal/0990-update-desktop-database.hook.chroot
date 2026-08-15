@@ -1,11 +1,12 @@
 #!/bin/sh
 set -e
 
-# Update XFCE desktop & mime targets
+# Aktualizácia globálnej databázy spúšťačov
 if [ -x /usr/bin/update-desktop-database ]; then
-    update-desktop-database /usr/share/applications/
+    update-desktop-database -q /usr/share/applications/
 fi
 
+# Aktualizácia systémovej MIME databázy pre Thunar
 if [ -x /usr/bin/update-mime-database ]; then
     update-mime-database /usr/share/mime/
 fi

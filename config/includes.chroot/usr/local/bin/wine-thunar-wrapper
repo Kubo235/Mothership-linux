@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Explicitne prenesieme grafické prostredie súčasného používateľa
+export DISPLAY="${DISPLAY:-:0.0}"
+export XAUTHORITY="$HOME/.Xauthority"
+
+EXE_PATH="$1"
+EXE_DIR=$(dirname "$EXE_PATH")
+
+# Presun do zložky s programom
+cd "$EXE_DIR" || exit 1
+
+# Spustenie Wine a presmerovanie prípadných chýb do textového súboru na ploche pre jednoduchú diagnostiku
+wine "$EXE_PATH" > "$HOME/Desktop/wine_debug.log" 2>&1
+

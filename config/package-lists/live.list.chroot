@@ -1,3 +1,4 @@
+linux-image-amd64
 live-boot
 live-config
 live-config-systemd
@@ -27,3 +28,5 @@ wine
 wine32:i386
 winetricks
 xdg-utils
+binfmt-support
+wine-binfmt
