@@ -16,4 +16,4 @@ The system routes all windows executable files through wine, it uses XFCE as the
 
 
 ## Usage of AI
-* AI was used to make configuring the system easier, otherwise, all the ideas and design is made by me.
+* AI was used to make configuring the system easier, otherwise, all the ideas and design is made by me, wallpaper: https://unsplash.com/photos/a-planet-with-clouds-and-water-GBg3jyGS-Ug.
