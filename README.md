@@ -7,6 +7,9 @@ A custom debian-based linux distribution tuned for maximum compatibility with wi
 * Mothership linux is a debian-based linux distribution made for maximum compatibility with windows software, it is intended for people switching (or wanting to switch) to a linux desktop.
 * It comes pre-configured with tools like Wine and many others to maximize performance and compatibility.
 
+## How does it work
+The system routes all windows executable files through wine, it uses XFCE as the default desktop environment for user-friendliness.
+
 ## Instalation 
 * You can either build the system yourself from the source code using live-build, or download the .iso image from the releases page.
 

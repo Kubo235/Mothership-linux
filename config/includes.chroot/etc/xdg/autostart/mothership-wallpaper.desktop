@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Mothership Wallpaper
+Exec=/usr/local/bin/set-wallpaper.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

@@ -25,8 +25,12 @@ papirus-icon-theme
 
 firefox-esr
 wine
-wine32:i386
+libwine:i386
 winetricks
 xdg-utils
 binfmt-support
 wine-binfmt
+
+gnome-software
+gnome-software-plugin-flatpak
+flatpak

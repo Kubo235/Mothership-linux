@@ -58,8 +58,15 @@
     <property name="plugin-10" type="string" value="actions"/>
     <property name="plugin-19" type="string" value="whiskermenu">
       <property name="launcher-icon-size" type="int" value="2"/>
-      <property name="category-icon-size" type="int" value="2"/>
+      <property name="category-icon-size" type="int" value="1"/>
       <property name="recent" type="array">
+        <value type="string" value="firefox-esr.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="org.gnome.DiskUtility.desktop"/>
+        <value type="string" value="codium.desktop"/>
+        <value type="string" value="org.gnome.Software.desktop"/>
+        <value type="string" value="org.gnome.SystemMonitor.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="xfce4-settings-editor.desktop"/>
@@ -67,6 +74,10 @@
       <property name="show-button-icon" type="bool" value="true"/>
       <property name="show-button-title" type="bool" value="false"/>
       <property name="profile-shape" type="int" value="0"/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/menu-icon.png"/>
+      <property name="button-single-row" type="bool" value="false"/>
+      <property name="view-mode" type="int" value="1"/>
+      <property name="menu-height" type="int" value="500"/>
     </property>
     <property name="plugin-1" type="string" value="launcher">
       <property name="items" type="array">
