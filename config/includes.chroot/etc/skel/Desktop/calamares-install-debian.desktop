@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install Mothership Linux
+Comment=Install this system to your hard drive
+Exec=pkexec calamares
+Icon=calamares
+Terminal=false
+Categories=System;

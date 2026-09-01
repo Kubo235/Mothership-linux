@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Mothership
+Description=Mothership Linux boot splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mothership
+ScriptFile=/usr/share/plymouth/themes/mothership/mothership.script

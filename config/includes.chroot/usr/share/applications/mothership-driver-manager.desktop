@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Driver Manager
+Comment=Detect and install proprietary graphics drivers
+Exec=/usr/local/bin/driver-manager.sh
+Icon=preferences-system
+Terminal=false
+Categories=System;Settings;
