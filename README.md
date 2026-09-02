@@ -10,8 +10,13 @@ A custom debian-based linux distribution tuned for maximum compatibility with wi
 ## How does it work
 The system routes all windows executable files through wine, it uses XFCE as the default desktop environment for user-friendliness.
 
+## Main features
+* Wine integration for running windows software easily,
+* Pre-installed basic apps (libreoffice, vlc, software manager, etc.)
+* Nvidia graphics driver manager.
+
 ## Instalation 
-* You can either build the system yourself from the source code using live-build, or download the .iso image from the releases page.
+* You can either build the system yourself from the source code using live-build, or download the .iso image from the releases page and create a bootable drive/virtual machine.
 
 
 
